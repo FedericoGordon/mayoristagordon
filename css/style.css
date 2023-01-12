@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Roboto:ital@0;1&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 18px;
+    min-height: 100vh;
+}
+
+
+.subtitulo{  
+    background-color: rgb(163, 154, 142);
+    border: solid black 2px;
+    color: black;
+    font-size: 20px;
+}
+
+h1{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.logo{
+    width: 10em;
+}
+
+.servicios{
+    border: solid red 2px;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: orange;
+    margin-bottom: 0;
+    margin-top: 1em;
+
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+a{
+    text-decoration: none;
+}
+.galeria{
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fotos{
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.img{
+    border: solid orange 3px;
+    margin: 10px;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.direccion{
+    font-size: 14px;
+    color: black;
+    padding: 15px 15px 0px 15px;
+}
+
+.marcas{
+    max-width: 80%;
+}
+
+
+.navbar{
+    background-color: white;
+}
+.menu{
+    display: flex;
+    justify-content: end;
+}
+
+.nav-item{
+    border: solid 1px black;
+    border-radius: 1em;
+    margin: 5px;
+    padding: 0px 10px;
+}
+
+.barra{
+    grid-area: nav;
+}
+
+header{
+    grid-area: header;
+}
+
+p{
+    grid-area: texto;
+}
+
+.galeria{
+    grid-area: galeria;
+}
+
+aside{
+    grid-area: sidebar;
+}
+
+footer{
+    grid-area: footer;
+}
+
+.grilla-general{
+    margin-bottom: 1em;
+    gap: 10px;
+    grid-template-areas: 
+    "nav"
+    "header"
+    "texto"
+    "galeria"
+    "sidebar"
+    "footer";
+
+}
+
+
+.acercar{
+    overflow: hidden;
+}
+
+.acercar img{
+    transition: all 2s;
+}
+
+.acercar:hover img{
+    transform: scale(1.5);
+}
+
+@media (min-width: 480px){
+    .fotos{
+        width: 440px;
+        padding: 10px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cartas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    }
+
+}
+
+@media (min-width: 768px){
+    .fotos{
+        width: 720px;}
+
+    header{
+        background-color: orange;
+    }
+    }
+
+@media (min-width: 1024px){
+    .fotos{
+        width: 980px;
+    }
+
+    .subtitulo{
+        background-color: rgb(168, 168, 255);
+    }
+    }
