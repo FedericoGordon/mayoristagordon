@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Roboto:ital@0;1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 18px;
+  min-height: 100vh;
+}
+
+h1 {
+  background-color: rgb(161, 231, 236);
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  border-radius: 20px;
+  margin: 0% 15%;
+}
+
+.logo {
+  width: 15em;
+}
+
+header {
+  display: flex;
+  justify-content: end;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navbar {
+  background-color: white;
+}
+.navbar .nav-item {
+  background-color: rgb(226, 226, 226);
+  border: solid 1px black;
+  border-radius: 1em;
+  margin: 5px;
+  padding: 0px 10px;
+}
+.navbar .nav-item a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: rgb(226, 226, 226);
+  margin-bottom: 0;
+  margin-top: 2em;
+}
+footer .redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+footer .redes .direccion {
+  font-size: 14px;
+  color: black;
+  padding: 15px 15px 0px 15px;
+}
+
+.galeria {
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fotos {
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-index {
+  border: solid orange 3px;
+  margin: 10px;
+  padding: 2px;
+  border-radius: 10px;
+}
+
+.subtitulo {
+  background-color: rgb(161, 231, 236);
+  border: solid black 1px;
+  border-radius: 5px;
+  color: black;
+  font-size: 20px;
+  margin: 0% 10%;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.marcas {
+  max-width: 80%;
+}
+
+@media (min-width: 480px) {
+  .fotos {
+    width: 440px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 768px) {
+  .fotos {
+    width: 720px;
+  }
+}
+@media (min-width: 1024px) {
+  .fotos {
+    width: 980px;
+  }
+}
+.productos {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.productos-box {
+  margin: 10px;
+  padding: 5px;
+  border: 2px solid black;
+  background-color: orange;
+  font-size: 20px;
+}
+
+.imgprod {
+  width: 300px;
+  height: 250px;
+}
+
+.pregunta {
+  background-color: lightblue;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 5px;
+}
+
+.respuesta {
+  background-color: lightcoral;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 5px;
+}
+
+.preg {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0vh 10%;
+}
+
+.acercar {
+  overflow: hidden;
+}
+
+.acercar img {
+  transition: all 2s;
+}
+
+.acercar:hover img {
+  transform: scale(1.5);
+}
+
+.cartas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}/*# sourceMappingURL=estilo.css.map */

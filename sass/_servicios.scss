@@ -1,0 +1,17 @@
+.acercar{
+    overflow: hidden;
+}
+
+.acercar img{
+    transition: all 2s;
+}
+
+.acercar:hover img{
+    transform: scale(1.5);
+}
+
+.cartas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    }
