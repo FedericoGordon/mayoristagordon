@@ -5,10 +5,17 @@
     justify-content: space-evenly;}
 
 .navbar{
-        background-color: white;
+    background: rgba(255,231,76,1);
+    background: -moz-linear-gradient(-45deg, rgba(255,231,76,1) 0%, rgba(255,231,76,1) 35%, rgba(255,189,74,1) 93%, rgba(255,189,74,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,231,76,1)), color-stop(35%, rgba(255,231,76,1)), color-stop(93%, rgba(255,189,74,1)), color-stop(100%, rgba(255,189,74,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(255,231,76,1) 0%, rgba(255,231,76,1) 35%, rgba(255,189,74,1) 93%, rgba(255,189,74,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(255,231,76,1) 0%, rgba(255,231,76,1) 35%, rgba(255,189,74,1) 93%, rgba(255,189,74,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(255,231,76,1) 0%, rgba(255,231,76,1) 35%, rgba(255,189,74,1) 93%, rgba(255,189,74,1) 100%);
+    background: linear-gradient(135deg, rgba(255,231,76,1) 0%, rgba(255,231,76,1) 35%, rgba(255,189,74,1) 93%, rgba(255,189,74,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe74c', endColorstr='#ffbd4a', GradientType=1 );
 
         .nav-item{
-            background-color: rgb(226, 226, 226);
+            background-color: rgba(255,231,76,1);
             border: solid 1px black;
             border-radius: 1em;
             margin: 5px;
@@ -20,6 +27,4 @@
             
         }
     }
-
-
 

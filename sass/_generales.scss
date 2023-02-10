@@ -13,10 +13,18 @@ body{
     font-weight: bolder;
     font-size: 18px;
     min-height: 100vh;
+    background: rgba(255,231,76,1);
+background: -moz-linear-gradient(-45deg, rgba(255,231,76,1) 0%, rgba(255,231,76,1) 5%, rgba(255,189,74,1) 31%, rgba(255,168,76,1) 58%, rgba(252,23,23,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,231,76,1)), color-stop(5%, rgba(255,231,76,1)), color-stop(31%, rgba(255,189,74,1)), color-stop(58%, rgba(255,168,76,1)), color-stop(100%, rgba(252,23,23,1)));
+background: -webkit-linear-gradient(-45deg, rgba(255,231,76,1) 0%, rgba(255,231,76,1) 5%, rgba(255,189,74,1) 31%, rgba(255,168,76,1) 58%, rgba(252,23,23,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(255,231,76,1) 0%, rgba(255,231,76,1) 5%, rgba(255,189,74,1) 31%, rgba(255,168,76,1) 58%, rgba(252,23,23,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(255,231,76,1) 0%, rgba(255,231,76,1) 5%, rgba(255,189,74,1) 31%, rgba(255,168,76,1) 58%, rgba(252,23,23,1) 100%);
+background: linear-gradient(135deg, rgba(255,231,76,1) 0%, rgba(255,231,76,1) 5%, rgba(255,189,74,1) 31%, rgba(255,168,76,1) 58%, rgba(252,23,23,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe74c', endColorstr='#fc1717', GradientType=1 );
 }
 
 h1{
-    background-color: rgb(161, 231, 236);
+    background-color: rgba(203, 252, 255, 0.822);
     color: black;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
